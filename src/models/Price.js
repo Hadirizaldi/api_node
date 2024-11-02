@@ -1,4 +1,3 @@
-// src/models/Price.js
 import { DataTypes } from "sequelize";
 import sequelize from "../config/db.js";
 
