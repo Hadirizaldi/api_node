@@ -14,7 +14,7 @@ const Stock = sequelize.define("Stock", {
     type: DataTypes.DATE,
     allowNull: false,
   },
-  totalStock: {
+  total_stock: {
     type: DataTypes.INTEGER,
     allowNull: false,
   },

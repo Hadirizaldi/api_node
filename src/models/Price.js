@@ -14,7 +14,7 @@ const Price = sequelize.define("Price", {
     type: DataTypes.DECIMAL(10, 2),
     allowNull: false,
   },
-  validFrom: {
+  effective_date: {
     type: DataTypes.DATE,
     allowNull: false,
   },

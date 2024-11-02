@@ -1,4 +1,5 @@
-import User from "../models/user.js";
+import sequelize from "../config/db.js";
+import User from "../models/User.js";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
 
