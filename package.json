@@ -1,9 +1,12 @@
 {
   "name": "api_node",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "migrate": "sequelize-cli --config src/config/config.js db:migrate"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +18,7 @@
     "express": "^4.21.1",
     "jsonwebtoken": "^9.0.2",
     "mysql2": "^3.11.3",
+    "nodemon": "^3.1.7",
     "sequelize": "^6.37.5"
   }
 }
